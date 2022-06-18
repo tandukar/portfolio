@@ -1,6 +1,6 @@
    /* nav bar starts here */
    
-   .nav-container {
+   #nav-container {
        /* background-color: rgb(0, 0, 0); */
        z-index: 99;
    }
@@ -107,8 +107,8 @@
        }
        .project-grid {
            display: grid;
-           grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-           grid-auto-rows: 400px;
+           grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+           grid-auto-rows: 350px;
            gap: 10px;
            padding: 10%;
            padding-top: 0%;
@@ -127,7 +127,7 @@
    /* nav bar mobile view (responsive)*/
    
    @media only screen and (max-width:860px) {
-       .nav-container {
+       #nav-container {
            z-index: 99;
            background-color: black;
        }
@@ -174,3 +174,48 @@
        }
    }
    /*responsive nav bar ennds here  */
+   
+   .shapedividers_com-1267 {
+       overflow: hidden;
+       position: relative;
+   }
+   
+   .shapedividers_com-1267::before {
+       content: '';
+       font-family: 'shape divider from ShapeDividers.com';
+       position: absolute;
+       bottom: -1px;
+       left: -1px;
+       right: -1px;
+       top: -1px;
+       z-index: 3;
+       pointer-events: none;
+       background-repeat: no-repeat;
+       background-size: 100% 62px;
+       background-position: 50% 0%;
+       background-image: url('data:image/svg+xml;charset=utf8, <svg preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 77"><g fill="%23000000"><path opacity=".5" d="M1872 74v-6l-6-3-5 3v6l5 3 6-3z"/><path opacity=".3" d="M1902 70v-8l7-4 7 4v8l-7 4-7-4z"/><path opacity=".75" d="M1877 69V58l10-6 9 6v11l-9 5-10-5z"/><path opacity=".5" d="M1333 74v-6l-5-3-6 3v6l6 3 5-3z"/><path opacity=".3" d="M1363 70v-8l8-4 7 4v8l-7 4-8-4z"/><path opacity=".75" d="M1339 69V58l9-6 10 6v11l-10 5-9-5z"/><path opacity=".5" d="M786 74v-6l-5-3-5 3v6l5 3 5-3z"/><path opacity=".3" d="M817 70v-8l7-4 7 4v8l-7 4-7-4z"/><path opacity=".75" d="M792 69V58l10-6 9 6v11l-9 5-10-5z"/><path opacity=".5" d="M247 74v-6l-5-3-5 3v6l5 3 5-3z"/><path opacity=".3" d="M278 70v-8l7-4 7 4v8l-7 4-7-4z"/><path opacity=".75" d="M253 69V58l9-6 10 6v11l-10 5-9-5z"/><path opacity=".5" d="M13 38V16L32 5l19 11v22L32 50 13 38z"/><path opacity=".3" d="M71 67V52l13-8 12 8v15l-12 7-13-7zM0 45V34l10-6 9 6v11l-9 5-10-5z"/><path opacity=".5" d="M15 63v-9l8-4 7 4v9l-7 4-8-4z"/><path opacity=".75" d="M37 55V39l14-8 14 8v16l-14 8-14-8zM208 72v-9l8-5 8 5v9l-8 4-8-4z"/><path opacity=".5" d="M59 40V26l12-7 11 7v14l-11 6-12-6zM112 46V24l19-12 19 12v22l-19 11-19-11z"/><path opacity=".3" d="M170 69V58l9-6 10 6v11l-10 5-9-5zM99 52V41l10-6 9 6v11l-9 5-10-5z"/><path opacity=".5" d="M114 70v-9l8-4 7 4v9l-7 4-8-4zM193 64v-6l6-3 5 3v6l-5 3-6-3z"/><path opacity=".75" d="M136 62V46l14-8 14 8v16l-14 8-14-8z"/><path opacity=".5" d="M158 47V33l12-6 11 6v14l-11 7-12-7zM516 39V17L496 5l-19 12v22l19 11 20-11z"/><path opacity=".3" d="M458 67V52l-13-7-13 7v15l13 8 13-8zM528 45V34l-9-6-10 6v11l10 5 9-5z"/><path opacity=".5" d="M511 60v-7l-5-3-6 3v7l6 3 5-3z"/><path opacity=".75" d="M491 55V39l-14-8-14 8v16l14 9 14-9zM320 72v-9l-8-4-7 4v9l8 5 7-5z"/><path opacity=".5" d="M470 40V26l-12-6-12 6v14l12 7 12-7zM417 46V24l-20-11-19 11v22l19 11 20-11z"/><path opacity=".3" d="M359 69V58l-10-5-9 5v11l9 6 10-6zM429 52V41l-9-5-10 5v11l10 6 9-6z"/><path opacity=".5" d="M414 70v-8l-7-4-8 4v8l8 5 7-5zM335 64v-6l-5-3-5 3v6l5 4 5-4z"/><path opacity=".75" d="M392 63V46l-14-8-14 9v16l14 8 14-8z"/><path opacity=".5" d="M371 47V34l-12-7-12 7v13l12 7 12-7zM552 38V16l19-11 19 11v22l-19 12-19-12z"/><path opacity=".3" d="M609 67V52l13-8 13 8v15l-13 7-13-7zM539 45V34l9-6 10 6v11l-10 5-9-5z"/><path opacity=".5" d="M554 63v-9l8-4 7 4v9l-7 4-8-4z"/><path opacity=".75" d="M576 55V39l14-8 14 8v16l-14 8-14-8zM747 72v-9l8-5 8 5v9l-8 4-8-4z"/><path opacity=".5" d="M598 40V26l11-7 12 7v14l-12 6-11-6zM651 46V24l19-12 19 12v22l-19 11-19-11z"/><path opacity=".3" d="M708 69V58l10-6 10 6v11l-10 5-10-5zM638 52V41l9-6 10 6v11l-10 5-9-5z"/><path opacity=".5" d="M653 70v-9l8-4 7 4v9l-7 4-8-4zM732 64v-6l5-3 6 3v6l-6 3-5-3z"/><path opacity=".75" d="M675 62V46l14-8 14 8v16l-14 8-14-8z"/><path opacity=".5" d="M697 47V33l11-6 12 6v14l-12 7-11-7zM1054 39V17l-19-12-19 12v22l19 11 19-11z"/><path opacity=".3" d="M997 67V52l-13-7-13 7v15l13 8 13-8zM1067 45V34l-9-6-10 6v11l10 5 9-5z"/><path opacity=".5" d="M1050 60v-7l-6-3-5 3v7l5 3 6-3z"/><path opacity=".75" d="M1030 55V39l-14-8-14 8v16l14 9 14-9zM859 72v-9l-8-4-8 4v9l8 5 8-5z"/><path opacity=".5" d="M1008 40V26l-11-6-12 6v14l12 7 11-7zM955 46V24l-19-11-19 11v22l19 11 19-11z"/><path opacity=".3" d="M898 69V58l-10-5-10 5v11l10 6 10-6zM968 52V41l-9-5-10 5v11l10 6 9-6z"/><path opacity=".5" d="M953 70v-8l-8-4-7 4v8l7 5 8-5zM874 64v-6l-5-3-6 3v6l6 4 5-4z"/><path opacity=".75" d="M931 63V46l-14-8-14 9v16l14 8 14-8z"/><path opacity=".5" d="M909 47V34l-11-7-12 7v13l12 7 11-7zM1090 38V16l20-11 19 11v22l-19 12-20-12z"/><path opacity=".3" d="M1148 67V52l13-8 13 8v15l-13 7-13-7zM1078 45V34l9-6 10 6v11l-10 5-9-5z"/><path opacity=".5" d="M1093 63v-9l7-4 8 4v9l-8 4-7-4z"/><path opacity=".75" d="M1115 55V39l14-8 14 8v16l-14 8-14-8zM1286 72v-9l8-5 7 5v9l-7 4-8-4z"/><path opacity=".5" d="M1136 40V26l12-7 12 7v14l-12 6-12-6zM1189 46V24l20-12 19 12v22l-19 11-20-11z"/><path opacity=".3" d="M1247 69V58l10-6 9 6v11l-9 5-10-5zM1177 52V41l9-6 10 6v11l-10 5-9-5z"/><path opacity=".5" d="M1192 70v-9l7-4 8 4v9l-8 4-7-4zM1271 64v-6l5-3 5 3v6l-5 3-5-3z"/><path opacity=".75" d="M1214 62V46l14-8 14 8v16l-14 8-14-8z"/><path opacity=".5" d="M1235 47V33l12-6 12 6v14l-12 7-12-7zM1593 39V17l-19-12-19 12v22l19 11 19-11z"/><path opacity=".3" d="M1535 67V52l-13-7-12 7v15l13 8 12-8zM1606 45V34l-10-6-9 6v11l9 5 10-5z"/><path opacity=".5" d="M1589 60v-7l-6-3-5 3v7l5 3 6-3z"/><path opacity=".75" d="M1569 55V39l-14-8-14 8v16l14 9 14-9zM1398 72v-9l-8-4-8 4v9l8 5 8-5z"/><path opacity=".5" d="M1547 40V26l-12-6-11 6v14l11 7 12-7zM1494 46V24l-19-11-19 11v22l19 11 19-11z"/><path opacity=".3" d="M1436 69V58l-9-5-10 5v11l10 6 9-6zM1507 52V41l-10-5-9 5v11l10 6 9-6z"/><path opacity=".5" d="M1492 70v-8l-8-4-7 4v8l7 5 8-5zM1413 64v-6l-6-3-5 3v6l6 4 5-4z"/><path opacity=".75" d="M1470 63V46l-14-8-14 9v16l14 8 14-8z"/><path opacity=".5" d="M1448 47V34l-12-7-11 7v13l11 7 12-7zM1629 38V16l19-11 20 11v22l-20 12-19-12z"/><path opacity=".3" d="M1687 67V52l13-8 13 8v15l-13 7-13-7zM1616 45V34l10-6 9 6v11l-9 5-10-5z"/><path opacity=".5" d="M1632 63v-9l7-4 8 4v9l-8 4-7-4z"/><path opacity=".75" d="M1653 55V39l15-8 14 8v16l-14 8-15-8zM1824 72v-9l8-5 8 5v9l-8 4-8-4z"/><path opacity=".5" d="M1675 40V26l12-7 12 7v14l-12 6-12-6zM1728 46V24l19-12 20 12v22l-20 11-19-11z"/><path opacity=".3" d="M1786 69V58l9-6 10 6v11l-10 5-9-5zM1715 52V41l10-6 9 6v11l-9 5-10-5z"/><path opacity=".5" d="M1731 70v-9l7-4 8 4v9l-8 4-7-4zM1809 64v-6l6-3 5 3v6l-5 3-6-3z"/><path opacity=".75" d="M1752 62V46l15-8 14 8v16l-14 8-15-8z"/><path opacity=".5" d="M1774 47V33l12-6 12 6v14l-12 7-12-7z"/><path opacity=".75" d="M1937 72v-9l-8-4-8 4v9l8 5 8-5z"/><path opacity=".3" d="M1975 69V58l-9-5-10 5v11l10 6 9-6z"/><path opacity=".5" d="M1952 64v-6l-6-3-5 3v6l5 4 6-4z"/><path opacity=".75" d="M2000 42v26l-5 3-15-8V47l7-4 8-5 5 4z"/><path opacity=".5" d="M1987 47V34l-12-7-12 7v13l12 7 12-7z"/><path d="M2000 0v38l-115 22-4 1-26 5-17-4h-5l-243-47-230 44-3 1-32 6-11-2-6-1-248-48-225 43h-2l-38 8-5-1-6-1-254-49-219 42h-1l-44 8-1 1-6-1-44-9L0 15V0h2000z"/></g></svg>');
+   }
+   
+   @media (min-width:768px) {
+       .shapedividers_com-1267::before {
+           background-size: 322% 76px;
+           background-position: 68% 0%;
+       }
+   }
+   
+   @media (min-width:1025px) {
+       .shapedividers_com-1267::before {
+           bottom: -0.1vw;
+           left: -0.1vw;
+           right: -0.1vw;
+           top: -0.1vw;
+           background-size: 189% 97px;
+           background-position: 45% 0%;
+       }
+   }
+   
+   @media (min-width:2100px) {
+       .shapedividers_com-1267::before {
+           background-size: 189% calc(2vw + 97px);
+       }
+   }
