@@ -11,6 +11,15 @@ html {
     scroll-behavior: smooth;
 }
 
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    overflow: visible;
+    background: rgb(14, 13, 13) url('https://i.pinimg.com/originals/d4/95/ca/d495ca580aecffac8adbd6ed6bcfa44e.gif') no-repeat center;
+}
+
 body {
     background-color: black;
     background-image: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
@@ -34,7 +43,7 @@ a {
 
 #nav-container {
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
     background-color: transparent;
 }
 

@@ -5,13 +5,19 @@ window.addEventListener('scroll', function() {
     if (scrollTop > lastScrollTop) {
         navbar.style.top = '-80px';
         document.getElementById("nav-container").style.backgroundColor = "transparent";
+        document.getElementById("nav-container").style.position = "fixed";
 
     } else {
         navbar.style.top = '0';
         document.getElementById("nav-container").style.backgroundColor = "black";
 
+
     }
     lastScrollTop = scrollTop;
+    if (scrollTop == 0) {
+        document.getElementById("nav-container").style.backgroundColor = "transparent";
+
+    }
 
 });
 
